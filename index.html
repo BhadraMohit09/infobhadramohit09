@@ -1,229 +1,270 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Welcome to My Website</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-</head>
-<body class="bg-gray-100 text-gray-800">
 
-    <div className="min-h-screen bg-gradient-to-b from-gray-900 to-gray-800 text-white">
-        {/* Hero Section */}
-        <div className="container mx-auto px-4 py-16">
-          <div className="max-w-4xl mx-auto">
-            <div className="flex flex-col md:flex-row items-center gap-8">
-              <img 
-                src="https://avatars.githubusercontent.com/u/143943280"
-                alt="Mohit Bhadra"
-                className="w-48 h-48 rounded-full border-4 border-blue-500 shadow-xl"
-              />
-              <div>
-                <h1 className="text-4xl font-bold mb-4">Mohit Bhadra</h1>
-                <p className="text-xl text-gray-300 mb-6">Full Stack Developer | Software Engineer</p>
-                <div className="flex gap-4">
-                  <a href="https://github.com/BhadraMohit09" 
-                     className="flex items-center gap-2 bg-gray-700 hover:bg-gray-600 px-4 py-2 rounded-lg transition-colors">
-                    <Github className="w-5 h-5" />
-                    GitHub
-                  </a>
-                  <a href="mailto:mohitbhadra09@gmail.com" 
-                     className="flex items-center gap-2 bg-gray-700 hover:bg-gray-600 px-4 py-2 rounded-lg transition-colors">
-                    <Mail className="w-5 h-5" />
-                    Email
-                  </a>
-                  <a href="https://www.linkedin.com/in/mohit-bhadra-b35b7b291" 
-                     className="flex items-center gap-2 bg-gray-700 hover:bg-gray-600 px-4 py-2 rounded-lg transition-colors">
-                    <Linkedin className="w-5 h-5" />
-                    LinkedIn
-                  </a>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohit Bhadra - Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.0.3/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@heroicons/react@1.0.5/outline/index.min.js"></script>
+</head>
+
+<body class="bg-gradient-to-b from-gray-900 to-gray-800 text-white">
+
+    <!-- Hero Section -->
+    <div class="container mx-auto px-4 py-16">
+        <div class="max-w-4xl mx-auto">
+            <div class="flex flex-col md:flex-row items-center gap-8">
+                <img src="https://avatars.githubusercontent.com/u/143943280" alt="Mohit Bhadra"
+                    class="w-48 h-48 rounded-full border-4 border-blue-500 shadow-xl" />
+                <div>
+                    <h1 class="text-4xl font-bold mb-4">Mohit Bhadra</h1>
+                    <p class="text-xl text-gray-300 mb-6">Full Stack Developer | Software Engineer</p>
+                    <div class="flex gap-4">
+                        <a href="https://github.com/BhadraMohit09"
+                            class="flex items-center gap-2 bg-gray-700 hover:bg-gray-600 px-4 py-2 rounded-lg transition-colors">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-github" viewBox="0 0 16 16">
+                                <path
+                                    d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8" />
+                            </svg>
+                            GitHub
+                        </a>
+                        <a href="mailto:mohitbhadra09@gmail.com"
+                            class="flex items-center gap-2 bg-gray-700 hover:bg-gray-600 px-4 py-2 rounded-lg transition-colors">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-envelope-at" viewBox="0 0 16 16">
+                                <path
+                                    d="M2 2a2 2 0 0 0-2 2v8.01A2 2 0 0 0 2 14h5.5a.5.5 0 0 0 0-1H2a1 1 0 0 1-.966-.741l5.64-3.471L8 9.583l7-4.2V8.5a.5.5 0 0 0 1 0V4a2 2 0 0 0-2-2zm3.708 6.208L1 11.105V5.383zM1 4.217V4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v.217l-7 4.2z" />
+                                <path
+                                    d="M14.247 14.269c1.01 0 1.587-.857 1.587-2.025v-.21C15.834 10.43 14.64 9 12.52 9h-.035C10.42 9 9 10.36 9 12.432v.214C9 14.82 10.438 16 12.358 16h.044c.594 0 1.018-.074 1.237-.175v-.73c-.245.11-.673.18-1.18.18h-.044c-1.334 0-2.571-.788-2.571-2.655v-.157c0-1.657 1.058-2.724 2.64-2.724h.04c1.535 0 2.484 1.05 2.484 2.326v.118c0 .975-.324 1.39-.639 1.39-.232 0-.41-.148-.41-.42v-2.19h-.906v.569h-.03c-.084-.298-.368-.63-.954-.63-.778 0-1.259.555-1.259 1.4v.528c0 .892.49 1.434 1.26 1.434.471 0 .896-.227 1.014-.643h.043c.118.42.617.648 1.12.648m-2.453-1.588v-.227c0-.546.227-.791.573-.791.297 0 .572.192.572.708v.367c0 .573-.253.744-.564.744-.354 0-.581-.215-.581-.8Z" />
+                            </svg>
+                            Email
+                        </a>
+                        <a href="https://www.linkedin.com/in/mohit-bhadra-b35b7b291"
+                            class="flex items-center gap-2 bg-gray-700 hover:bg-gray-600 px-4 py-2 rounded-lg transition-colors">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-linkedin" viewBox="0 0 16 16">
+                                <path
+                                    d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
+                            </svg>
+                            LinkedIn
+                        </a>
+                    </div>
                 </div>
-              </div>
             </div>
+        </div>
+    </div>
+
+    <!-- About Section with Skills -->
+    <div class="bg-gray-800 py-16">
+        <div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto">
+                <h2 class="text-3xl font-bold mb-8 flex items-center gap-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                        class="bi bi-rocket-takeoff" viewBox="0 0 16 16">
+                        <path
+                            d="M9.752 6.193c.599.6 1.73.437 2.528-.362s.96-1.932.362-2.531c-.599-.6-1.73-.438-2.528.361-.798.8-.96 1.933-.362 2.532" />
+                        <path
+                            d="M15.811 3.312c-.363 1.534-1.334 3.626-3.64 6.218l-.24 2.408a2.56 2.56 0 0 1-.732 1.526L8.817 15.85a.51.51 0 0 1-.867-.434l.27-1.899c.04-.28-.013-.593-.131-.956a9 9 0 0 0-.249-.657l-.082-.202c-.815-.197-1.578-.662-2.191-1.277-.614-.615-1.079-1.379-1.275-2.195l-.203-.083a10 10 0 0 0-.655-.248c-.363-.119-.675-.172-.955-.132l-1.896.27A.51.51 0 0 1 .15 7.17l2.382-2.386c.41-.41.947-.67 1.524-.734h.006l2.4-.238C9.005 1.55 11.087.582 12.623.208c.89-.217 1.59-.232 2.08-.188.244.023.435.06.57.093q.1.026.16.045c.184.06.279.13.351.295l.029.073a3.5 3.5 0 0 1 .157.721c.055.485.051 1.178-.159 2.065m-4.828 7.475.04-.04-.107 1.081a1.54 1.54 0 0 1-.44.913l-1.298 1.3.054-.38c.072-.506-.034-.993-.172-1.418a9 9 0 0 0-.164-.45c.738-.065 1.462-.38 2.087-1.006M5.205 5c-.625.626-.94 1.351-1.004 2.09a9 9 0 0 0-.45-.164c-.424-.138-.91-.244-1.416-.172l-.38.054 1.3-1.3c.245-.246.566-.401.91-.44l1.08-.107zm9.406-3.961c-.38-.034-.967-.027-1.746.163-1.558.38-3.917 1.496-6.937 4.521-.62.62-.799 1.34-.687 2.051.107.676.483 1.362 1.048 1.928.564.565 1.25.941 1.924 1.049.71.112 1.429-.067 2.048-.688 3.079-3.083 4.192-5.444 4.556-6.987.183-.771.18-1.345.138-1.713a3 3 0 0 0-.045-.283 3 3 0 0 0-.3-.041Z" />
+                        <path
+                            d="M7.009 12.139a7.6 7.6 0 0 1-1.804-1.352A7.6 7.6 0 0 1 3.794 8.86c-1.102.992-1.965 5.054-1.839 5.18.125.126 3.936-.896 5.054-1.902Z" />
+                    </svg>
+                    About Me
+                </h2>
+                <p class="text-gray-300 text-lg leading-relaxed mb-8">
+                    I'm a passionate Full Stack Developer with a keen interest in building robust web applications.
+                    My journey in software development has equipped me with a strong foundation in both frontend
+                    and backend technologies.
+                </p>
+
+                <!-- Skills Grid -->
+                <div class="grid grid-cols-2 md:grid-cols-3 gap-4 mt-8">
+                    <div class="bg-gray-700 p-4 rounded-lg">
+                        <h3 class="font-semibold mb-2">Frontend</h3>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="px-2 py-1 bg-blue-900 rounded-full text-sm">React</span>
+                            <span class="px-2 py-1 bg-blue-900 rounded-full text-sm">TypeScript</span>
+                            <span class="px-2 py-1 bg-blue-900 rounded-full text-sm">Tailwind</span>
+                        </div>
+                    </div>
+                    <div class="bg-gray-700 p-4 rounded-lg">
+                        <h3 class="font-semibold mb-2">Backend</h3>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="px-2 py-1 bg-blue-900 rounded-full text-sm">Node.js</span>
+                            <span class="px-2 py-1 bg-blue-900 rounded-full text-sm">Express</span>
+                            <span class="px-2 py-1 bg-blue-900 rounded-full text-sm">MongoDB</span>
+                        </div>
+                    </div>
+                    <div class="bg-gray-700 p-4 rounded-lg">
+                        <h3 class="font-semibold mb-2">Tools</h3>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="px-2 py-1 bg-blue-900 rounded-full text-sm">Git</span>
+                            <span class="px-2 py-1 bg-blue-900 rounded-full text-sm">Docker</span>
+                            <span class="px-2 py-1 bg-blue-900 rounded-full text-sm">AWS</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Experience Section -->
+    <div class="py-16">
+        <div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto">
+                <h2 class="text-3xl font-bold mb-8 flex items-center gap-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                        class="bi bi-backpack" viewBox="0 0 16 16">
+                        <path
+                            d="M4.04 7.43a4 4 0 0 1 7.92 0 .5.5 0 1 1-.99.14 3 3 0 0 0-5.94 0 .5.5 0 1 1-.99-.14M4 9.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-.5.5h-7a.5.5 0 0 1-.5-.5zm1 .5v3h6v-3h-1v.5a.5.5 0 0 1-1 0V10z" />
+                        <path
+                            d="M6 2.341V2a2 2 0 1 1 4 0v.341c2.33.824 4 3.047 4 5.659v5.5a2.5 2.5 0 0 1-2.5 2.5h-7A2.5 2.5 0 0 1 2 13.5V8a6 6 0 0 1 4-5.659M7 2v.083a6 6 0 0 1 2 0V2a1 1 0 0 0-2 0m1 1a5 5 0 0 0-5 5v5.5A1.5 1.5 0 0 0 4.5 15h7a1.5 1.5 0 0 0 1.5-1.5V8a5 5 0 0 0-5-5" />
+                    </svg>
+                    Experience
+                </h2>
+                <div class="space-y-8">
+                    <div class="bg-gray-800 p-6 rounded-lg">
+                        <div class="flex justify-between items-start mb-4">
+                            <div>
+                                <h3 class="text-xl font-semibold">Full Stack Developer</h3>
+                                <p class="text-blue-400">Tech Innovators Inc.</p>
+                            </div>
+                            <span class="text-gray-400">2023 - Present</span>
+                        </div>
+                        <p class="text-gray-300">
+                            Led development of multiple web applications using React and Node.js.
+                            Implemented responsive designs and optimized application performance.
+                        </p>
+                    </div>
+                    <div class="bg-gray-800 p-6 rounded-lg">
+                        <div class="flex justify-between items-start mb-4">
+                            <div>
+                                <h3 class="text-xl font-semibold">Frontend Developer Intern</h3>
+                                <p class="text-blue-400">WebTech Solutions</p>
+                            </div>
+                            <span class="text-gray-400">2022 - 2023</span>
+                        </div>
+                        <p class="text-gray-300">
+                            Developed and maintained client-side applications.
+                            Collaborated with design team to implement UI/UX improvements.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Projects Section with Images -->
+<div class="bg-gray-800 py-16">
+    <div class="container mx-auto px-4">
+      <div class="max-w-4xl mx-auto">
+        <h2 class="text-3xl font-bold mb-8 flex items-center gap-3">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-kanban" viewBox="0 0 16 16">
+                <path d="M13.5 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1h-11a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zm-11-1a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h11a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z"/>
+                <path d="M6.5 3a1 1 0 0 1 1-1h1a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-1a1 1 0 0 1-1-1zm-4 0a1 1 0 0 1 1-1h1a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1h-1a1 1 0 0 1-1-1zm8 0a1 1 0 0 1 1-1h1a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1h-1a1 1 0 0 1-1-1z"/>
+              </svg>
+          Projects
+        </h2>
+        
+        <!-- Project Card for Text-to-Speech Voice API -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div class="bg-gray-700 p-6 rounded-lg shadow-lg">
+            <h3 class="text-2xl font-semibold mb-4">Text-to-Speech Voice API</h3>
+            <p class="text-gray-300 mb-4">Developed a Voice API capable of converting text to speech in multiple languages. Features real-time processing and customizable voices.</p>
+            <a href="#" class="text-blue-400 hover:text-blue-500 transition-colors">View Project</a>
+          </div>
+          
+          <!-- Project Card for CricBuzz -->
+          <div class="bg-gray-700 p-6 rounded-lg shadow-lg">
+            <h3 class="text-2xl font-semibold mb-4">CricBuzz</h3>
+            <p class="text-gray-300 mb-4">A Flutter-based application providing live scores, schedules, player stats, and more for cricket. Stay updated with real-time notifications and match details.</p>
+            <a href="#" class="text-blue-400 hover:text-blue-500 transition-colors">View Project</a>
+          </div>
+  
+          <!-- Project Card for Sports Utility -->
+          <div class="bg-gray-700 p-6 rounded-lg shadow-lg">
+            <h3 class="text-2xl font-semibold mb-4">Sports Utility</h3>
+            <p class="text-gray-300 mb-4">An application providing comprehensive sports information, including live scores, schedules, and player stats, across various sports beyond cricket.</p>
+            <a href="#" class="text-blue-400 hover:text-blue-500 transition-colors">View Project</a>
+          </div>
+  
+          <!-- Project Card for Astronomical Orbit -->
+          <div class="bg-gray-700 p-6 rounded-lg shadow-lg">
+            <h3 class="text-2xl font-semibold mb-4">Astronomical Orbit 💫💫</h3>
+            <p class="text-gray-300 mb-4">Astronomical Orbit is a .NET-based project designed for college students, providing an interactive platform for exploring space and astronomy. The application leverages cutting-edge technologies to deliver real-time data visualization, educational content, and simulation features, making it ideal for learning and research purposes.</p>
+            <a href="#" class="text-blue-400 hover:text-blue-500 transition-colors">View Project</a>
           </div>
         </div>
-  
-        {/* About Section with Skills */}
-        <div className="bg-gray-800 py-16">
-          <div className="container mx-auto px-4">
-            <div className="max-w-4xl mx-auto">
-              <h2 className="text-3xl font-bold mb-8 flex items-center gap-3">
-                <Code2 className="w-8 h-8 text-blue-400" />
-                About Me
-              </h2>
-              <p className="text-gray-300 text-lg leading-relaxed mb-8">
-                I'm a passionate Full Stack Developer with a keen interest in building robust web applications. 
-                My journey in software development has equipped me with a strong foundation in both frontend 
-                and backend technologies.
-              </p>
-              
-              {/* Skills Grid */}
-              <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mt-8">
-                <div className="bg-gray-700 p-4 rounded-lg">
-                  <h3 className="font-semibold mb-2">Frontend</h3>
-                  <div className="flex flex-wrap gap-2">
-                    <span className="px-2 py-1 bg-blue-900 rounded-full text-sm">React</span>
-                    <span className="px-2 py-1 bg-blue-900 rounded-full text-sm">TypeScript</span>
-                    <span className="px-2 py-1 bg-blue-900 rounded-full text-sm">Tailwind</span>
-                  </div>
-                </div>
-                <div className="bg-gray-700 p-4 rounded-lg">
-                  <h3 className="font-semibold mb-2">Backend</h3>
-                  <div className="flex flex-wrap gap-2">
-                    <span className="px-2 py-1 bg-blue-900 rounded-full text-sm">Node.js</span>
-                    <span className="px-2 py-1 bg-blue-900 rounded-full text-sm">Express</span>
-                    <span className="px-2 py-1 bg-blue-900 rounded-full text-sm">MongoDB</span>
-                  </div>
-                </div>
-                <div className="bg-gray-700 p-4 rounded-lg">
-                  <h3 className="font-semibold mb-2">Tools</h3>
-                  <div className="flex flex-wrap gap-2">
-                    <span className="px-2 py-1 bg-blue-900 rounded-full text-sm">Git</span>
-                    <span className="px-2 py-1 bg-blue-900 rounded-full text-sm">Docker</span>
-                    <span className="px-2 py-1 bg-blue-900 rounded-full text-sm">AWS</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-  
-        {/* Experience Section */}
-        <div className="py-16">
-          <div className="container mx-auto px-4">
-            <div className="max-w-4xl mx-auto">
-              <h2 className="text-3xl font-bold mb-8 flex items-center gap-3">
-                <Briefcase className="w-8 h-8 text-blue-400" />
-                Experience
-              </h2>
-              <div className="space-y-8">
-                <div className="bg-gray-800 p-6 rounded-lg">
-                  <div className="flex justify-between items-start mb-4">
-                    <div>
-                      <h3 className="text-xl font-semibold">Full Stack Developer</h3>
-                      <p className="text-blue-400">Tech Innovators Inc.</p>
-                    </div>
-                    <span className="text-gray-400">2023 - Present</span>
-                  </div>
-                  <p className="text-gray-300">
-                    Led development of multiple web applications using React and Node.js.
-                    Implemented responsive designs and optimized application performance.
-                  </p>
-                </div>
-                <div className="bg-gray-800 p-6 rounded-lg">
-                  <div className="flex justify-between items-start mb-4">
-                    <div>
-                      <h3 className="text-xl font-semibold">Frontend Developer Intern</h3>
-                      <p className="text-blue-400">WebTech Solutions</p>
-                    </div>
-                    <span className="text-gray-400">2022 - 2023</span>
-                  </div>
-                  <p className="text-gray-300">
-                    Developed and maintained client-side applications.
-                    Collaborated with design team to implement UI/UX improvements.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-  
-        {/* Projects Section with Images */}
-        <div className="bg-gray-800 py-16">
-          <div className="container mx-auto px-4">
-            <div className="max-w-4xl mx-auto">
-              <h2 className="text-3xl font-bold mb-8 flex items-center gap-3">
-                <BookOpen className="w-8 h-8 text-blue-400" />
-                Featured Projects
-              </h2>
-              <div className="grid md:grid-cols-2 gap-6">
-                <div className="bg-gray-700 rounded-lg overflow-hidden group">
-                  <div className="relative h-48">
-                    <img 
-                      src="https://images.unsplash.com/photo-1557821552-17105176677c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2089&q=80"
-                      alt="Ecommerce Website"
-                      className="w-full h-full object-cover"
-                    />
-                    <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
-                      <a href="#" className="text-white flex items-center gap-2">
-                        <ExternalLink className="w-5 h-5" />
-                        View Project
-                      </a>
-                    </div>
-                  </div>
-                  <div className="p-6">
-                    <h3 className="text-xl font-semibold mb-3">Ecommerce Website</h3>
-                    <p className="text-gray-300 mb-4">
-                      A full-featured ecommerce platform built with modern web technologies.
-                    </p>
-                    <div className="flex gap-2">
-                      <span className="px-3 py-1 bg-blue-900 rounded-full text-sm">React</span>
-                      <span className="px-3 py-1 bg-blue-900 rounded-full text-sm">Node.js</span>
-                      <span className="px-3 py-1 bg-blue-900 rounded-full text-sm">MongoDB</span>
-                    </div>
-                  </div>
-                </div>
-                <div className="bg-gray-700 rounded-lg overflow-hidden group">
-                  <div className="relative h-48">
-                    <img 
-                      src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2015&q=80"
-                      alt="Portfolio Website"
-                      className="w-full h-full object-cover"
-                    />
-                    <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
-                      <a href="#" className="text-white flex items-center gap-2">
-                        <ExternalLink className="w-5 h-5" />
-                        View Project
-                      </a>
-                    </div>
-                  </div>
-                  <div className="p-6">
-                    <h3 className="text-xl font-semibold mb-3">Portfolio Website</h3>
-                    <p className="text-gray-300 mb-4">
-                      A modern portfolio website showcasing projects and skills.
-                    </p>
-                    <div className="flex gap-2">
-                      <span className="px-3 py-1 bg-blue-900 rounded-full text-sm">React</span>
-                      <span className="px-3 py-1 bg-blue-900 rounded-full text-sm">Tailwind</span>
-                      <span className="px-3 py-1 bg-blue-900 rounded-full text-sm">TypeScript</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-  
-        {/* Certifications Section */}
-        <div className="py-16">
-          <div className="container mx-auto px-4">
-            <div className="max-w-4xl mx-auto">
-              <h2 className="text-3xl font-bold mb-8 flex items-center gap-3">
-                <Award className="w-8 h-8 text-blue-400" />
-                Certifications
-              </h2>
-              <div className="grid md:grid-cols-2 gap-6">
-                <div className="bg-gray-800 p-6 rounded-lg border border-gray-700">
-                  <h3 className="text-xl font-semibold mb-2">AWS Certified Developer</h3>
-                  <p className="text-gray-300">Amazon Web Services</p>
-                  <p className="text-gray-400 mt-2">2023</p>
-                </div>
-                <div className="bg-gray-800 p-6 rounded-lg border border-gray-700">
-                  <h3 className="text-xl font-semibold mb-2">Full Stack Development</h3>
-                  <p className="text-gray-300">Udacity</p>
-                  <p className="text-gray-400 mt-2">2022</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-  
-        {/* Footer */}
-        <footer className="bg-gray-900 py-8">
-          <div className="container mx-auto px-4 text-center text-gray-400">
-            <p>© 2024 Mohit Bhadra. All rights reserved.</p>
-          </div>
-        </footer>
       </div>
+    </div>
+  </div>
+  
+
+
+    <!-- Footer Section -->
+    <footer class="bg-gray-900 py-12 mt-16">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row justify-between items-start md:items-center text-gray-300">
+
+                <!-- About Section -->
+                <div class="mb-8 md:mb-0 md:w-1/3">
+                    <h3 class="text-2xl font-semibold mb-4 text-white">About Me</h3>
+                    <p class="text-gray-400 text-lg">
+                        JavaScript Alchemist | Passionate about Space Research | Aeronautics Aficionado | Food Critic -
+                        Sampling the World, Dish by Dish | Curious Soul Learner!
+                    </p>
+                </div>
+
+                <!-- Social Links with Icons -->
+                <div class="flex gap-6 mb-8 md:mb-0 md:w-1/3 justify-center">
+                    <a href="https://github.com/BhadraMohit09"
+                        class="text-gray-400 hover:text-blue-500 transition-colors">
+                        <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path fill-rule="evenodd"
+                                d="M12 0C5.372 0 0 5.372 0 12c0 5.302 3.438 9.8 8.207 11.392.6.111.826-.26.826-.577 0-.288-.01-1.053-.015-2.07-3.338.727-4.04-1.655-4.04-1.655-.544-1.379-1.331-1.748-1.331-1.748-1.09-.746.083-.73.083-.73 1.206.085 1.837 1.239 1.837 1.239 1.07 1.831 2.809 1.3 3.493.995.106-.774.419-1.3.761-1.597-2.665-.304-5.467-1.334-5.467-5.933 0-1.311.467-2.384 1.236-3.22-.123-.304-.535-1.537.118-3.21 0 0 1.008-.323 3.302 1.238.959-.267 1.986-.399 3.003-.403 1.017.004 2.043.136 3.003.403 2.293-1.561 3.301-1.238 3.301-1.238.654 1.674.243 2.906.12 3.21.77.836 1.236 1.909 1.236 3.22 0 4.606-2.804 5.624-5.474 5.923.43.37.826 1.099.826 2.218 0 1.599-.015 2.885-.015 3.276 0 .32.225.693.832.574 4.77-1.593 8.206-6.09 8.206-11.392 0-6.628-5.372-12-12-12z"
+                                clip-rule="evenodd" />
+                        </svg>
+                    </a>
+                    <a href="mailto:mohitbhadra09@gmail.com"
+                        class="text-gray-400 hover:text-blue-500 transition-colors">
+                        <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path fill-rule="evenodd"
+                                d="M4.5 4.5H19.5V5.75H4.5V4.5ZM12 13.94L21 8.72V5.25H3V8.72L12 13.94ZM12 13.94L3 8.72V12.75L12 18.88L21 12.75V8.72L12 13.94Z"
+                                clip-rule="evenodd" />
+                        </svg>
+                    </a>
+                    <a href="https://www.linkedin.com/in/mohit-bhadra-b35b7b291"
+                        class="text-gray-400 hover:text-blue-500 transition-colors">
+                        <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path fill-rule="evenodd"
+                                d="M9.023 3c.586 0 1.049.462 1.049 1.048v15.904a1.05 1.05 0 0 1-1.048 1.048H3.895a1.048 1.048 0 0 1-1.049-1.048V4.048A1.049 1.049 0 0 1 3.895 3h5.128ZM12 0a4.9 4.9 0 0 1 4.9 4.9v14.2a4.9 4.9 0 0 1-4.9 4.9H7.1a4.9 4.9 0 0 1-4.9-4.9V4.9A4.9 4.9 0 0 1 7.1 0h4.9ZM12 3H7.1c-.164 0-.297.133-.297.297v14.4c0 .164.133.297.297.297h4.9c.164 0 .297-.133.297-.297V3.297c0-.164-.133-.297-.297-.297Z"
+                                clip-rule="evenodd" />
+                        </svg>
+                    </a>
+                </div>
+
+                <!-- Contact Section -->
+                <div class="md:w-1/3">
+                    <h3 class="text-2xl font-semibold mb-4 text-white">Contact</h3>
+                    <p class="text-gray-400 text-lg">Feel free to reach out for collaborations, inquiries, or just a
+                        chat about tech, space, and food!</p>
+                    <p class="text-gray-400 text-lg mt-2">Email: <a href="mailto:mohitbhadra18@gmail.com"
+                            class="text-blue-500">mohitbhadra18@gmail.com</a></p>
+                </div>
+            </div>
+
+            <!-- Copyright Section -->
+            <div class="mt-12 text-center text-gray-400">
+                <p>&copy; 2025 Mohit Bhadra. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+
 </body>
+
 </html>
