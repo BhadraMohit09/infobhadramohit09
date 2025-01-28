@@ -39,8 +39,13 @@ You can modify it according to your specific needs, add your projects, or furthe
 
 ```
 
-> [!TIP]
-> [Contribute][https://razorpay.me/@mohitbhadra]
+If you'd like to support or contribute to the project, you can donate via the following link:
+
+[![Contribute](https://img.shields.io/badge/Contribute-Donate-green)](https://razorpay.me/@mohitbhadra)
+
+---
+
+Developed with ❤️ by Mohit and contributors.
 
 
 
