@@ -1,11 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>info@me</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome to My Website</title>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    <h3>Hello</h3>
+<body class="bg-gray-100 text-gray-800">
+
+  <!-- Header -->
+  <header class="bg-gradient-to-r from-blue-500 to-teal-400 text-white py-6 shadow-lg">
+    <div class="container mx-auto px-4 text-center">
+      <h1 class="text-4xl font-bold">Welcome to My Website</h1>
+      <p class="mt-2 text-lg">Explore and connect with me!</p>
+    </div>
+  </header>
+
+  <!-- Navigation -->
+  <nav class="bg-white shadow-md">
+    <div class="container mx-auto px-4 flex justify-center space-x-6 py-4">
+      <a href="#about" class="text-blue-500 hover:text-teal-400 font-medium">About</a>
+      <a href="#portfolio" class="text-blue-500 hover:text-teal-400 font-medium">Portfolio</a>
+      <a href="#contact" class="text-blue-500 hover:text-teal-400 font-medium">Contact</a>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="hero" class="bg-cover bg-center h-screen" style="background-image: url('https://source.unsplash.com/1920x1080/?technology');">
+    <div class="flex h-full items-center justify-center bg-black bg-opacity-50">
+      <div class="text-center text-white">
+        <h2 class="text-5xl font-extrabold mb-4">Build Your Future Here</h2>
+        <p class="text-xl mb-6">Crafting projects that inspire and innovate.</p>
+        <a href="#portfolio" class="px-6 py-3 bg-teal-500 text-white rounded-lg shadow-lg hover:bg-teal-600">Explore Projects</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-16 bg-gray-100">
+    <div class="container mx-auto px-4 text-center">
+      <h2 class="text-3xl font-bold text-gray-800 mb-6">About Me</h2>
+      <p class="text-gray-600 text-lg">
+        Hi, I'm Mohit! I am passionate about web development, technology, and innovation. I create modern, user-friendly websites and applications that bring ideas to life.
+      </p>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section id="portfolio" class="py-16 bg-white">
+    <div class="container mx-auto px-4 text-center">
+      <h2 class="text-3xl font-bold text-gray-800 mb-6">My Portfolio</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div class="bg-gray-100 p-6 rounded-lg shadow hover:shadow-lg">
+          <img src="https://source.unsplash.com/400x300/?project1" alt="Project 1" class="w-full h-40 object-cover rounded-md mb-4">
+          <h3 class="text-xl font-semibold">Project 1</h3>
+          <p class="text-gray-600 mt-2">A brief description of your amazing project.</p>
+        </div>
+        <div class="bg-gray-100 p-6 rounded-lg shadow hover:shadow-lg">
+          <img src="https://source.unsplash.com/400x300/?project2" alt="Project 2" class="w-full h-40 object-cover rounded-md mb-4">
+          <h3 class="text-xl font-semibold">Project 2</h3>
+          <p class="text-gray-600 mt-2">Another cool project with a description here.</p>
+        </div>
+        <div class="bg-gray-100 p-6 rounded-lg shadow hover:shadow-lg">
+          <img src="https://source.unsplash.com/400x300/?project3" alt="Project 3" class="w-full h-40 object-cover rounded-md mb-4">
+          <h3 class="text-xl font-semibold">Project 3</h3>
+          <p class="text-gray-600 mt-2">Details about this fantastic project.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-16 bg-gray-100">
+    <div class="container mx-auto px-4 text-center">
+      <h2 class="text-3xl font-bold text-gray-800 mb-6">Get in Touch</h2>
+      <p class="text-gray-600 text-lg mb-6">Feel free to reach out to me for collaborations or inquiries!</p>
+      <a href="mailto:your-email@example.com" class="px-6 py-3 bg-blue-500 text-white rounded-lg shadow-lg hover:bg-blue-600">Contact Me</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-6 text-center">
+    <p>&copy; 2025 @Bhadra Mohit09. All Rights Reserved.</p>
+  </footer>
+
 </body>
 </html>
