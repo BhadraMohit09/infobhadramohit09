@@ -13,7 +13,7 @@ This website is powered by **GitHub Pages**, a free and easy way to host static 
 - **Responsive Design**: This website is optimized for both desktop and mobile devices for a seamless experience.
 - **Live Demos**: Explore live demos of projects and applications.
 
-### How to Use This Repository
+> ### How to Use This Repository
 
 This repository contains the static files needed to run the website. The site is hosted through GitHub Pages, so you can access it directly at:
 
