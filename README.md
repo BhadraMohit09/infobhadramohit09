@@ -17,7 +17,7 @@ This website is powered by **GitHub Pages**, a free and easy way to host static 
 
 This repository contains the static files needed to run the website. The site is hosted through GitHub Pages, so you can access it directly at:
 
-### Clone the Repository
+> ### Clone the Repository
 
 To make changes or contribute to the site, you can clone this repository:
 
