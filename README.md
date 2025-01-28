@@ -6,7 +6,7 @@ Welcome to the official GitHub Pages website repository for **BhadraMohit09**! T
 
 This website is powered by **GitHub Pages**, a free and easy way to host static websites directly from a GitHub repository. You can explore various projects, code samples, and personal blogs featured here. Feel free to browse and learn more about the ongoing work.
 
-### Features
+> ### Features
 
 - **Showcase Projects**: View personal and professional projects, including web development, software applications, and more.
 - **Blog/Portfolio**: Check out the personal blog or portfolio with updates, tutorials, and case studies.
