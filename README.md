@@ -23,7 +23,7 @@ Explore various projects, code samples, and personal blogs featured here.
 
 ---
 
-## 🔧 How to Use This Repository  
+### 🔧 How to Use This Repository  
 
 This repository contains the static files needed to run the website.  
 It is hosted through **GitHub Pages**, making it easily accessible via a web browser.  
