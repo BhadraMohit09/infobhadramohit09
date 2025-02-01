@@ -38,11 +38,11 @@ git clone https://github.com/BhadraMohit09/BhadraMohit09.github.io.git
 ```
 
 ### 📂 Key Sections
-📌 About – Overview of the repository.
-🚀 Features – Highlights key features like project showcases and live demos.
-💡 How to Use – Explains how to clone or run the website locally.
-🤝 Contributing – Guidelines for contributions.
-📌 Projects Featured – List of showcased projects.
+- 📌 About – Overview of the repository.
+- 🚀 Features – Highlights key features like project showcases and live demos.
+- 💡 How to Use – Explains how to clone or run the website locally.
+- 🤝 Contributing – Guidelines for contributions.
+- 📌 Projects Featured – List of showcased projects.
 📩 Contact – Get in touch for networking or collaborations.
 📜 License – Open-source license (MIT License).
 🙏 Acknowledgments – Credits to relevant tools and resources.
