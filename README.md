@@ -14,7 +14,7 @@ Explore various projects, code samples, and personal blogs featured here.
 
 ---
 
-## 🌟 Features  
+### 🌟 Features  
 
 ✅ **Showcase Projects** – View personal and professional projects, including web development, software applications, and more.  
 📖 **Blog/Portfolio** – Check out the personal blog or portfolio with updates, tutorials, and case studies.  
