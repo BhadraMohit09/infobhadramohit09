@@ -5,7 +5,7 @@ This repository serves as the home for showcasing personal projects, blogs, port
 
 ---
 
-## 📌 About  
+### 📌 About  
 
 This website is powered by **GitHub Pages**, a free and easy way to host static websites directly from a GitHub repository.  
 Explore various projects, code samples, and personal blogs featured here.  
