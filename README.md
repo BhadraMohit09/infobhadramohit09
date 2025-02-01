@@ -1,7 +1,7 @@
 ### 🎉 BhadraMohit09.github.io  
 
 Welcome to the official GitHub Pages website repository for **BhadraMohit09**! 🚀  
-This repository serves as the home for showcasing personal projects, blogs, portfolios, and various content that reflects the work and creativity behind **Prashant**.  
+This repository serves as the home for showcasing personal projects, blogs, portfolios, and various content that reflects the work.  
 
 ---
 
