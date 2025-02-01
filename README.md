@@ -57,7 +57,7 @@ If you'd like to support or contribute to the project, you can donate via the fo
 
 ---
 
-`Developed with ❤️ by Mohit and contributors.`
+`Developed with ❤️ by Mohit and contributors!`
 
 
 
