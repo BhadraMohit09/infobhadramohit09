@@ -47,6 +47,8 @@ git clone https://github.com/BhadraMohit09/BhadraMohit09.github.io.git
 - 📜 License – Open-source license (MIT License).
 - 🙏 Acknowledgments – Credits to relevant tools and resources.
 
+> [!TIP]
+> 
 If you'd like to support or contribute to the project, you can donate via the following link:: 
 
 [![Contribute](https://img.shields.io/badge/Contribute-Donate-green)](https://razorpay.me/@mohitbhadra)
