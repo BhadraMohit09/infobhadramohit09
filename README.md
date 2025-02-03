@@ -28,7 +28,7 @@ Explore various projects, code samples, and personal blogs featured here.
 This repository contains the static files needed to run the website.  
 It is hosted through **GitHub Pages**, making it easily accessible via a web browser.  
 
-### 🛠️ Clone the Repository  
+#### 🛠️ Clone the Repository  
 
 To make changes or contribute, clone this repository:  
 
