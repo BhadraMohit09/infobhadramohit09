@@ -48,6 +48,8 @@ git clone https://github.com/BhadraMohit09/BhadraMohit09.github.io.git
 - 🙏 Acknowledgments – Credits to relevant tools and resources.
 
 > [!TIP]
+> Helpful advice for doing things better or more easily.
+
 
 If you'd like to support or contribute to the project, you can donate via the following link:: 
 
