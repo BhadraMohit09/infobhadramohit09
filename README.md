@@ -2,7 +2,7 @@
 
 [![wakatime](https://wakatime.com/badge/user/0dfe81a8-b10c-47d9-93c3-4067746c546b.svg)](https://wakatime.com/@0dfe81a8-b10c-47d9-93c3-4067746c546b)
 
-Welcome to the official GitHub Pages website repository for **BhadraMohit09**! 🚀
+Welcome to the official GitHub Pages website repository for **BhadraMohit09**! 🚀💫
 This repository serves as the home for showcasing personal projects, blogs, portfolios, and various content that reflects the work.  
 
 ---
